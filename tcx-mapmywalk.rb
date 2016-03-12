@@ -8,12 +8,6 @@
 #   tcx-mapmaywalk.rb -u <usernmae> -p <password> -P <proxyhost:port> -d <dir> <yyyymm[dd]>
 #     "-P" option can be ommited, if so no proxy environment
 #     "-d" option can be ommited, if so defalut value is "tcx-mapmywalk"
-# Usage:
-#
-# Syntax:
-#   tcx-mapmaywalk.rb -u <usernmae> -p <password> -P <proxyhost:port> -d <dir> <yyyymm[dd]>
-#     -P options can be ommited, if so no proxy environment
-#     -d options can be ommited, if so defalut value is "tcx-mapmywalk"
 #     After execution of this program, tcx files are downloaded under "mapmywalk" subdirectory.
 #
 # Ex1. download tcx files of specific month

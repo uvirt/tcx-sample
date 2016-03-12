@@ -8,12 +8,6 @@
 #   tcx-garmin.rb -u <usernmae> -p <password> -P <proxyhost:port> -d <dir> <yyyymm[dd]>
 #     "-P" option can be ommited, if so no proxy environment
 #     "-d" option can be ommited, if so defalut value is "tcx-garmin"
-# Usage:
-#
-# Syntax:
-#   tcx-garmin.rb -u <usernmae> -p <password> -P <proxyhost:port> -d <dir> <yyyymm[dd]>
-#     -P options can be ommited
-#     -d options can be ommited, if so defalut value is "tcx-garmin"
 #     After execution of this program, tcx files are downloaded under "tcx-garmin" subdirectory.
 #
 # Ex1. download tcx files of specific month
