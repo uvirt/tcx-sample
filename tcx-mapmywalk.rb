@@ -7,7 +7,7 @@
 # Usage:
 #   tcx-mapmaywalk.rb -u <usernmae> -p <password> [-P <proxyhost:port>] [-d <dir>] <yyyymm[dd]>
 #
-#     After execution of this program, tcx files are downloaded under "mapmywalk" subdirectory.
+#     After execution of this program, tcx files are downloaded under "tcx-mapmywalk" subdirectory.
 #
 # Ex1. download tcx files of specific month
 #   $ ruby tcx-mapmaywalk.rb -u username@example.com -p password 201603
