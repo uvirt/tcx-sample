@@ -2,19 +2,21 @@
 
 #--------------------
 # Description:
-#   download tcx files from mapmywalk.com
+#   download tcx files from connect.garmin.com
 #
 # Usage:
-#   tcx-mapmaywalk.rb -u <usernmae> -p <password> -P <proxyhost:port> -d <dir> <yyyymm[dd]>
-#     "-P" option can be ommited, if so no proxy environment
-#     "-d" option can be ommited, if so defalut value is "tcx-mapmywalk"
+#   tcx-mapmaywalk.rb -u <usernmae> -p <password> [-P <proxyhost:port>] [-d <dir>] <yyyymm[dd]>
+#
 #     After execution of this program, tcx files are downloaded under "mapmywalk" subdirectory.
 #
 # Ex1. download tcx files of specific month
-#   $ ruby tcx-mapmaywalk.rb -u username@example.com -p abc123 -P proxy.example.com:8080 201603
+#   $ ruby tcx-mapmaywalk.rb -u username@example.com -p password 201603
 #
 # Ex2. download tcx files of specific date
-#   $ ruby tcx-mapmaywalk.rb -u username@example.com -p abc123 -P proxy.example.com:8080 20160310
+#   $ ruby tcx-mapmaywalk.rb -u username@example.com -p password 20160310
+#
+# Ex3. download tcx files of specific month via proxy
+#   $ ruby tcx-mapmaywalk.rb -u username@example.com -p password -P proxy.example.com:8080 201603
 #
 #--------------------
 
