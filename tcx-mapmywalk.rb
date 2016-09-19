@@ -2,7 +2,7 @@
 
 #--------------------
 # Description:
-#   download tcx files from connect.garmin.com
+#   download tcx files from mapmywalk.com
 #
 # Usage:
 #   tcx-mapmaywalk.rb -u <usernmae> -p <password> [-P <proxyhost:port>] [-d <dir>] <yyyymm[dd]>
